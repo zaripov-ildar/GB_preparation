@@ -4,7 +4,7 @@ import lombok.Data;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import static ru.gb.preparation.hw_5.SessionFactorySingleton.getSessionFactory;
+import static ru.gb.preparation.hw_5.SessionFactoryService.getSessionFactory;
 
 import java.util.List;
 
